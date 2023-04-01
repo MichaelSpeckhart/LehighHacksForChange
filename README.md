@@ -21,6 +21,8 @@ Please see the included simulation to better visualize the method of capturing i
 
 Our website is hosted [here](), where you can see a visualzation of our data, how our drone will naviagate the beach, and the AI model we used to calcualte the pollution data.
 
+For the TACO model: reference README in TACO_Model directory for dataset download and model training.
+
 ## Google Products Used
 
 - Google maps location plotting API to show the results of the pollution density calculation.

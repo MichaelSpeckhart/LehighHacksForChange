@@ -27,6 +27,8 @@ Google maps location plotting API to show the results of the pollution density c
 
 ## Ciatations
 
-[Ploting CSV data on Google Maps](https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/)
-[TACO Dataset Website](http://tacodataset.org/)
-[TACO Mask R-CNN Classification Model](https://github.com/pedropro/TACO)
+[Ploting CSV data on Google Maps](https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/) 
+
+[TACO Dataset Website](http://tacodataset.org/) 
+
+[TACO Mask R-CNN Classification Model](https://github.com/pedropro/TACO) 

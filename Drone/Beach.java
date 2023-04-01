@@ -1,5 +1,3 @@
-package Drone;
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
@@ -63,6 +61,7 @@ public class Beach extends JPanel {
   public static void main(String[] args) {
     JFrame frame = new JFrame("The Memory Game");
     Beach m = new Beach("Drone/data.txt");
+    Drone drone = new Drone(m.image);
     m.setFocusable(true);
     m.requestFocusInWindow();
     m.setSize(500, 500);
@@ -74,5 +73,7 @@ public class Beach extends JPanel {
     while(true){
       m.simulate(frame);
     } 
+
+
   }
 }

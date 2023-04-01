@@ -26,7 +26,10 @@ For the TACO model: reference README in TACO_Model directory for dataset downloa
 ## Google Products Used
 
 Google maps location plotting API to show the results of the pollution density calculation.
+
 The TACO model utilizes TensorFlow to classify image data.
+
+We also used firebase to host our website
 
 ## Ciatations
 

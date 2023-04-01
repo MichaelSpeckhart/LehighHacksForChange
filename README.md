@@ -16,3 +16,11 @@ Our solution involves using an autonomous drone to fly over beaches and capture 
 3. Environmentally friendly: Drones are electric, reducing the carbon footprint of our solution.
 
 Please see the included simulation to better visualize the method of capturing image data from drones.
+
+## Instructions
+
+Our website is hosted [here](), where you can see a visualzation of our data, how our drown will naviagate the beach, and the AI model we used to calcualte the pollution data.
+
+## Ciatations
+
+[Ploting CSV data on Google Maps](https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/)

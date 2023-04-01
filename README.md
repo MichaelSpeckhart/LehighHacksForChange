@@ -21,6 +21,10 @@ Please see the included simulation to better visualize the method of capturing i
 
 Our website is hosted [here](), where you can see a visualzation of our data, how our drone will naviagate the beach, and the AI model we used to calcualte the pollution data.
 
+## Google Products Used
+
+Google maps location plotting API to show the results of the pollution density calculation.
+
 ## Ciatations
 
 [Ploting CSV data on Google Maps](https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/)

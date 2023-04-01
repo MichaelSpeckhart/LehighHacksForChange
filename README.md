@@ -24,6 +24,7 @@ Our website is hosted [here](), where you can see a visualzation of our data, ho
 ## Google Products Used
 
 Google maps location plotting API to show the results of the pollution density calculation.
+The TACO model utilizes TensorFlow to classify image data.
 
 ## Ciatations
 

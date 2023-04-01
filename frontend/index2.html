@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon</title>
+  <style>
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .styletable {
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    body {
+      background-color: #c4d9ec;
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      margin-left: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .tab {
+        max-width: 1300px;
+        margin: 0 auto; 
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    nav {
+      background-color: #06364b;
+      overflow: hidden;
+      margin-top: 0;
+    }
+
+    nav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    nav a.active {
+      background-color: #72c88a;
+      color: white;
+    }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+      border: 2px solid #c4d9ec;
+      object-fit: contain;
+      height: 500px;
+      width: 100%;
+      max-width: 986px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    nav a.logo img {
+        height: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .styled-table {
+        font-size: 0.9em;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        max-width: 600px;
+        margin: 0 20px;
+    }
+
+    .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+    }
+
+    @media screen and (min-width: 650px) {
+      iframe {
+        height: 650;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="tab">
+      <a class="active" href="index2.html">Home</a>
+      <a href="simulation.html">Simulation</a>
+      <a href="https://github.com/MichaelSpeckhart/LehighHacksForChange" target="_blank">Source Code</a>
+      <a href="model.html">Model</a>
+    </div>
+  </nav>
+  <div>
+    <h1>Hackathon</h1>
+  </div>
+  <div class="container">
+    <!--<table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dom</td>
+                <td>6000</td>
+            </tr>
+            <tr class="active-row">
+                <td>Melissa</td>
+                <td>5150</td>
+            </tr>
+        </tbody>
+    </table>-->
+    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=14QWHEEuFx2k_GIkYCDbw2srvHAcShBQ&ehbc=2E312F" class="map" alt="Centered image"></iframe>
+  </div>
+  
+</body>
+</html>

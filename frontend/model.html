@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            * {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+              font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }            
+            .column1{
+              max-width: 35%;
+              margin-left: 15%;
+              display: -webkit-box;
+              float: left;
+            }
+            .column2{
+              max-width: 35%;
+              margin-right: 15%;
+              display: -webkit-box;
+              float: right;
+            }
+            .container {
+              max-width: 600px;
+              margin: 0 auto;
+              margin-left: auto;
+              display: -webkit-box;
+            }
+
+            .paragraph_container{
+              display: flex;
+              max-width: 80%;
+              margin: 0 auto;
+              margin-top: 10px;
+              margin-left: 10%;
+              display: -webkit-box;
+              float: left;
+            }
+            
+            body {
+              background-color: #c4d9ec;
+            }
+
+            /* Navigation styles */
+            nav {
+              background-color: #06364b;
+              overflow: hidden;
+              margin-top: 0;
+            }
+        
+            nav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+        
+            nav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+        
+            nav a.active {
+              background-color: #72c88a;
+              color: white;
+            }
+
+            .paragraph-style {
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 20px;
+                color: #006;
+            }
+
+            .row {
+              margin-top: 10px;
+              width: 100%;
+              margin-bottom: 10px;
+            }
+
+            .column {
+              flex: 20%;
+              padding: 5px;
+              border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+          <div class="tab">
+            <a class="active" href="index2.html">Home</a>
+            <a href="simulation.html">Simulation</a>
+            <a href="https://github.com/MichaelSpeckhart/LehighHacksForChange">Source Code</a>
+            <a href="model.html">Model</a>
+          </div>
+        </nav>
+        <div class = "container">
+            <p class="paragraph-style"> Utilize TACO dataset and model on a drone (Tensorflow)
+                Show image and how it recognizes it:
+                Spread out to whole beach:</p>
+        </div>
+        <div class="row">
+              <img class="column1" src="Before1.png" alt="Before" width="400">
+              <img class="column2" src="after1.png" alt="After" width="400">
+        </div>
+        <div class="row">
+              <img class="column1" src="Before2.png" alt="Before" width="400">
+              <img class="column2" src="after2.png" alt="After" width="400">
+        </div>
+        <p style="font-size:40px;">
+          <br><br><br>
+          →
+          <br><br><br>
+          <br><br><br>
+          →
+        </p>
+        <div class="paragraph_container">
+          <p class="paragraph-style">
+                    The dataset and model are both being utilized from TACO (Trash Annotations in Context). 
+            The dataset is a collection of images of trash on different backgrounds including sand, 
+            gravel, and concrete which are then annotated with the trash detected in the image as
+            well as their positions. TACO additionally trained a mask R-CNN classification model 
+            that is capable of taking any image and returning the location and type of trash. <br><br>
+                    We plan on using this model on data captured by our drone to classify all the types of 
+            garbage on each section of the beach. Once this is done, we will be able to count every 
+            individual piece of trash on any subsection of a beach to create a heatmap of where the 
+            dirtiest beaches are in any region. The drone will act as a sliding window to collect 
+            data and we will then process this into an array of trash quantities which will feed 
+            our website visuals.
+
+          </p>
+        </div>
+    </body>
+</html>

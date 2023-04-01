@@ -1,17 +1,26 @@
 # Team Seg Fault: Calculating Beach Pollution Levels using Drone Images and AI
 
-Our project aims to calculate the density levels of beach pollution. This is important as it allows different organizations to identify which beaches to allocate their resources to. It is also important because it can help identify trends of which beaches obtain the most pollution and help scientists identify the best actions to take to keep our beaches clean.
-
-Our solution was to have an autonomous drone fly over the beaches and take picture that we can use computer vision on to make a value for the density of pollution. 
+## Project Description
+Our project aims to calculate the density levels of beach pollution using drone imagery and artificial intelligence. By identifying polluted beaches, we can help organizations and governments allocate their resources more effectively and work towards maintaining cleaner beaches. Additionally, our solution can help scientists identify trends and develop better strategies for mitigating pollution.
 
 ## Impact on Climate Change
+Beach pollution poses a significant threat to marine life and ecosystems. Approximately 8 million metric tons of plastic waste enter the oceans every year. This pollution has severe consequences for marine life, with an estimated 100,000 marine mammals and turtles, and 1 million seabirds dying from plastic ingestion or entanglement annually.
 
-The impact of our project is significant in the fight against climate change. Here are some numerical data to illustrate the importance of cleaning beaches:
+By providing a tool that calculates pollution density levels, we can directly contribute to the efforts in combating climate change and preserving marine ecosystems. Cleaner beaches also help reduce the amount of greenhouse gases emitted from decaying organic matter.
 
-1. **Beach pollution harms marine life:** Every year, millions of marine animals are killed by plastic waste that ends up in the ocean. This includes animals like sea turtles, dolphins, and whales. By reducing beach pollution, we can help protect these animals and preserve the biodiversity of our oceans.
+## Technical Approach
+Our solution involves using an autonomous drone to fly over beaches and capture images of the area. These images are then processed using computer vision algorithms and artificial intelligence to determine the density of pollution. Drones provide several advantages over other solutions:
 
-2. **Beach pollution affects human health:** Beach pollution can cause skin irritation, respiratory problems, and other health issues for humans. In fact, a study by the University of Miami found that people who swim in polluted water are more likely to get sick than those who swim in clean water.
+1. Autonomy: Drones can be programmed to follow a predefined path, enabling efficient data collection without constant human supervision.
+2. Flexibility: The altitude at which drones operate can be easily adjusted, allowing for the capture of images at varying resolutions.
+3. Environmentally friendly: Drones are electric, reducing the carbon footprint of our solution.
 
-3. **Beach pollution has economic consequences:** Beaches are major tourist attractions and a source of revenue for many coastal communities. However, if beaches are polluted, tourists may choose to go elsewhere, resulting in a loss of income for these communities. In fact, a study by the Natural Resources Defense Council found that beach closures due to pollution cost the US economy $3.3 billion annually in lost tourism revenue.
+Please see the included simulation to better visualize the method of capturing image data from drones.
 
-Our technical approach of using drones and computer vision to calculate beach pollution density is a creative and innovative solution to this problem. By automating the process of monitoring beach pollution, we can gather more accurate and frequent data, which can help organizations make better decisions about how to allocate their resources. This is a useful application of technology that can have a real impact on the health of our oceans and the communities that depend on them.
+## Instructions
+
+Our website is hosted [here](), where you can see a visualzation of our data, how our drone will naviagate the beach, and the AI model we used to calcualte the pollution data.
+
+## Ciatations
+
+[Ploting CSV data on Google Maps](https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/)

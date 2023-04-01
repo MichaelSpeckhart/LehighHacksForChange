@@ -14,3 +14,5 @@ Our solution involves using an autonomous drone to fly over beaches and capture 
 1. Autonomy: Drones can be programmed to follow a predefined path, enabling efficient data collection without constant human supervision.
 2. Flexibility: The altitude at which drones operate can be easily adjusted, allowing for the capture of images at varying resolutions.
 3. Environmentally friendly: Drones are electric, reducing the carbon footprint of our solution.
+
+Please see the included simulation to better visualize the method of capturing image data from drones.

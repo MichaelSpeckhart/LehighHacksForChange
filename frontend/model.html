@@ -16,8 +16,27 @@
 
             }
             
+            .column1{
+              max-width: 40%;
+              margin-left: 10%;
+              display: -webkit-box;
+              float: left;
+            }
+            .column1{
+              max-width: 40%;
+              margin-right: 10%;
+              display: -webkit-box;
+              float: right;
+            }
             .container {
               max-width: 600px;
+              margin: 0 auto;
+              margin-left: auto;
+              display: -webkit-box;
+            }
+
+            .paragraph_container{
+              max-width: 75%;
               margin: 0 auto;
               margin-left: auto;
               display: -webkit-box;
@@ -85,12 +104,24 @@
                 Spread out to whole beach:</p>
         </div>
         <div class="row">
-            <div class="column">
-              <img src="Before1.png" alt="Before">
-            </div>
-            <div class="column">
-              <img src="after1.png" alt="After">
-            </div>
+              <img class="column1" src="Before1.png" alt="Before" width="400">
+              <img class="column1" src="after1.png" alt="After" width="400">
+        </div>
+        <div class="paragraph_container">
+          <p class="paragraph-style">
+                    The dataset and model are both being utilized from TACO (Trash Annotations in Context). 
+            The dataset is a collection of images of trash on different backgrounds including sand, 
+            gravel, and concrete which are then annotated with the trash detected in the image as
+            well as their positions. TACO additionally trained a mask R-CNN classification model 
+            that is capable of taking any image and returning the location and type of trash. <br><br>
+                    We plan on using this model on data captured by our drone to classify all the types of 
+            garbage on each section of the beach. Once this is done, we will be able to count every 
+            individual piece of trash on any subsection of a beach to create a heatmap of where the 
+            dirtiest beaches are in any region. The drone will act as a sliding window to collect 
+            data and we will then process this into an array of trash quantities which will feed 
+            our website visuals.
+
+          </p>
         </div>
     </body>
 </html>

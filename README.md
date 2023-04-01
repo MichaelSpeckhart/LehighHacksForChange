@@ -29,7 +29,7 @@ Google maps location plotting API to show the results of the pollution density c
 
 The TACO model utilizes TensorFlow to classify image data.
 
-We also used firebase to host our website
+We also used Firebase to host our website
 
 ## Ciatations
 

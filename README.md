@@ -4,7 +4,7 @@
 Our project aims to calculate the density levels of beach pollution using drone imagery and artificial intelligence. By identifying polluted beaches, we can help organizations and governments allocate their resources more effectively and work towards maintaining cleaner beaches. Additionally, our solution can help scientists identify trends and develop better strategies for mitigating pollution.
 
 ## Impact on Climate Change
-Beach pollution poses a significant threat to marine life and ecosystems. According to a study published in the journal Science, approximately 8 million metric tons of plastic waste enter the oceans every year. This pollution has severe consequences for marine life, with an estimated 100,000 marine mammals and turtles, and 1 million seabirds dying from plastic ingestion or entanglement annually.
+Beach pollution poses a significant threat to marine life and ecosystems. Approximately 8 million metric tons of plastic waste enter the oceans every year. This pollution has severe consequences for marine life, with an estimated 100,000 marine mammals and turtles, and 1 million seabirds dying from plastic ingestion or entanglement annually.
 
 By providing a tool that calculates pollution density levels, we can directly contribute to the efforts in combating climate change and preserving marine ecosystems. Cleaner beaches also help reduce the amount of greenhouse gases emitted from decaying organic matter.
 

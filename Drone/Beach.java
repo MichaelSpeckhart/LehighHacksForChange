@@ -84,6 +84,11 @@ public class Beach extends JPanel {
     frame.setVisible(true);
     frame.setDefaultCloseOperation(3);
     frame.repaint();
+    try {
+      Thread.sleep(500);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     while(!(d.get_x() == 0 && d.get_y() == 9)){
       m.simulate(frame);
     }

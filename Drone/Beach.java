@@ -13,6 +13,7 @@ import javax.swing.JPanel;
 public class Beach extends JPanel {
   
   public char[][] image = new char[10][10];
+  static Drone d;
 
   public Beach(String file) {
     readFile(file);
@@ -50,30 +51,41 @@ public class Beach extends JPanel {
           g.setColor(Color.BLUE);
           g.fillRect(j*50, i*50, 50, 50);
         }
+        else if(image[i][j] == 't'){
+          g.setColor(Color.BLACK);
+          g.fillRect(j*50, i*50, 50, 50);
+        }
       }
     }
+    g.setColor(Color.GRAY);
+    g.fillRect(d.get_x()*50 + 20, d.get_y()*50 + 20, 10,10);
   }
 
   public void simulate(JFrame f){
+    d.step();
     f.repaint();
+    try {
+      Thread.sleep(500);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
   }
 
   public static void main(String[] args) {
     JFrame frame = new JFrame("The Memory Game");
     Beach m = new Beach("Drone/data.txt");
-    Drone drone = new Drone(m.image);
+    d = new Drone(m.image);
     m.setFocusable(true);
     m.requestFocusInWindow();
     m.setSize(500, 500);
     frame.add(m);
-    frame.setSize(500, 500);
+    frame.setSize(510, 535);
     frame.setLocation(520, 185);
     frame.setVisible(true);
     frame.setDefaultCloseOperation(3);
-    while(true){
+    frame.repaint();
+    while(!(d.get_x() == 0 && d.get_y() == 9)){
       m.simulate(frame);
-    } 
-
-
+    }
   }
 }

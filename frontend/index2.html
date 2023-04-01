@@ -27,10 +27,12 @@
     }
 
     .container {
-      max-width: 700px;
+      max-width: 1300px;
       margin: 0 auto;
       margin-left: auto;
-      display: -webkit-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .tab {
@@ -39,13 +41,12 @@
     }
 
     h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 36px;
     }
 
-    /* Navigation styles */
     nav {
       background-color: #06364b;
       overflow: hidden;
@@ -71,7 +72,6 @@
       color: white;
     }
 
-    /* Map styles */
     iframe {
       display: block;
       margin: 0 auto;
@@ -92,12 +92,12 @@
     }
 
     .styled-table {
-        border-collapse: collapse;
-        margin: auto;
         font-size: 0.9em;
         font-family: sans-serif;
-        min-width: 400px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        max-width: 600px;
+        margin: 0 20px;
     }
 
     .styled-table thead tr {
@@ -138,17 +138,17 @@
 <body>
   <nav>
     <div class="tab">
-      <a class="active" href="#">Home</a>
+      <a class="active" href="index2.html">Home</a>
       <a href="simulation.html">Simulation</a>
-      <a href="https://github.com/MichaelSpeckhart/LehighHacksForChange">Source Code</a>
-      <a href="">Model</a>
+      <a href="https://github.com/MichaelSpeckhart/LehighHacksForChange" target="_blank">Source Code</a>
+      <a href="model.html">Model</a>
     </div>
   </nav>
-  <div class="container">
+  <div>
     <h1>Hackathon</h1>
-    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=14QWHEEuFx2k_GIkYCDbw2srvHAcShBQ&ehbc=2E312F" class="map" alt="Centered image"></iframe>
   </div>
-    <table class="styled-table">
+  <div class="container">
+    <!--<table class="styled-table">
         <thead>
             <tr>
                 <th>Name</th>
@@ -164,9 +164,10 @@
                 <td>Melissa</td>
                 <td>5150</td>
             </tr>
-            <!-- and so on... -->
         </tbody>
-    </table>
+    </table>-->
+    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=14QWHEEuFx2k_GIkYCDbw2srvHAcShBQ&ehbc=2E312F" class="map" alt="Centered image"></iframe>
+  </div>
   
 </body>
 </html>

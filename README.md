@@ -19,7 +19,7 @@ Please see the included simulation to better visualize the method of capturing i
 
 ## Instructions
 
-Our website is hosted [here](), where you can see a visualzation of our data, how our drown will naviagate the beach, and the AI model we used to calcualte the pollution data.
+Our website is hosted [here](), where you can see a visualzation of our data, how our drone will naviagate the beach, and the AI model we used to calcualte the pollution data.
 
 ## Ciatations
 
